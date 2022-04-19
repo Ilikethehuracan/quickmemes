@@ -1,0 +1,239 @@
+.header {
+    font-weight: 900;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: color-change;
+    text-align: center;
+}
+
+.gifRickRoll {
+    border: 5px groove blue;
+    text-align: center;
+}
+
+@keyframes position-change {
+    5% {
+        transform: translate(100px, 874px)
+    }
+
+    10% {
+        transform: translate(543px, -378px)
+    }
+
+    20% {
+        transform: translate(-894px, 358px)
+    }
+
+    30% {
+        transform: translate(-438px, 238px)
+    }
+
+    40% {
+        transform: translate(947px, 289px)
+    }
+
+    50% {
+        transform: translate(345px, 238px)
+    }
+
+    60% {
+        transform: translate(-579px, 479px)
+    }
+
+    70% {
+        transform: translate(689px, -327px)
+    }
+
+    80% {
+        transform: translate(526px, 793px)
+    }
+
+    90% {
+        transform: translate(-123px, 834px)
+    }
+
+    100% {
+        transform: translate(456px, 789px)
+    }
+}
+
+.gif1 {
+    height: 300px;
+    width: 400px;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-name: position-change;
+}
+
+.gif2 {
+    height: 300px;
+    width: 400px;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-name: position-change1;
+}
+
+@keyframes position-change1 {
+    5% {
+        transform: translate(100px, -200px)
+    }
+
+    10% {
+        transform: translate(49px, 429px)
+    }
+
+    20% {
+        transform: translate(432px, -237px)
+    }
+
+    30% {
+        transform: translate(947px, 349px)
+    }
+
+    40% {
+        transform: translate(-320px, 348px)
+    }
+
+    50% {
+        transform: translate(583px, 95px)
+    }
+
+    60% {
+        transform: translate(438px, -128px)
+    }
+
+    70% {
+        transform: translate(829px, 637px)
+    }
+
+    80% {
+        transform: translate(923px, -138px)
+    }
+
+    90% {
+        transform: translate(-248px, 423px)
+    }
+
+    100% {
+        transform: translate(-348px, 853px)
+    }
+}
+
+body {
+    cursor: default;
+}
+
+@keyframes color-change {
+    0% {
+        color: red
+    }
+
+    10% {
+        color: blue
+    }
+
+    20% {
+        color: green
+    }
+
+    30% {
+        color: yellow
+    }
+
+    40% {
+        color: pink
+    }
+
+    50% {
+        color: purple
+    }
+
+    60% {
+        color: dodgerblue
+    }
+
+    70% {
+        color: lime
+    }
+
+    80% {
+        color: crimson
+    }
+
+    90% {
+        color: orange
+    }
+
+    95% {
+        color: salmon
+    }
+
+    100% {
+        color: lightgoldenrodyellow
+    }
+}
+
+body {
+    font-family: 'Gloria Hallelujah', cursive;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: background-change;
+}
+
+@keyframes background-change {
+    0% {
+        background-color: blue
+    }
+
+    10% {
+        background-color: red
+    }
+
+    20% {
+        background-color: yellow
+    }
+
+    30% {
+        background-color: green
+    }
+
+    40% {
+        background-color: purple
+    }
+
+    50% {
+        background-color: pink
+    }
+
+    60% {
+        background-color: lime
+    }
+
+    70% {
+        background-color: dodgerblue
+    }
+
+    80% {
+        background-color: orange
+    }
+
+    90% {
+        background-color: crimson
+    }
+
+    100% {
+        background-color: lightcoral
+    }
+}
